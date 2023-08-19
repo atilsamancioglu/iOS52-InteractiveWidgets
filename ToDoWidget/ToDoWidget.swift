@@ -91,5 +91,5 @@ struct ToDoWidget: Widget {
     ToDoWidget()
 } timeline: {
     ToDoEntry( toDoToDisplay:  Array(SharedDatas.shared.toDos.prefix(3)))
-    ToDoEntry( toDoToDisplay:  Array(SharedDatas.shared.toDos.prefix(3)))
+    ToDoEntry( toDoToDisplay:  Array(SharedDatas.shared.toDos.reversed().prefix(3)))
 }
