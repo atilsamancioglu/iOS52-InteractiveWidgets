@@ -47,8 +47,10 @@ struct ToDoWidgetEntryView : View {
                 } else {
                     ForEach(entry.toDoToDisplay) {toDo in
                         HStack {
-                            Image(systemName: toDo.isDone ? "checkmark.circle.fill" : "circle")
-                                .foregroundStyle(.blue)
+                            Button(intent: CompleteToDoIntent(id: toDo.id)) {
+                                Image(systemName: toDo.isDone ? "checkmark.circle.fill" : "circle")
+                                    .foregroundStyle(.blue)
+                            }.buttonStyle(.plain)
                             
                             VStack(alignment:.leading) {
                                 Text(toDo.name)

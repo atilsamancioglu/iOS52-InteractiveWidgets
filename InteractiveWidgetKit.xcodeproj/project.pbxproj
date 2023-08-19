@@ -20,6 +20,8 @@
 		FC32CDA52A90F80C0008AE3F /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32CDA42A90F80C0008AE3F /* ToDo.swift */; };
 		FC32CDA62A90FA1F0008AE3F /* ToDoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32CD982A90F7030008AE3F /* ToDoWidget.swift */; };
 		FC32CDA72A90FA3A0008AE3F /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32CDA42A90F80C0008AE3F /* ToDo.swift */; };
+		FC32CDA92A90FD870008AE3F /* CompleteToDoIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32CDA82A90FD870008AE3F /* CompleteToDoIntent.swift */; };
+		FC32CDAA2A90FD870008AE3F /* CompleteToDoIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32CDA82A90FD870008AE3F /* CompleteToDoIntent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,7 @@
 		FC32CD9A2A90F7060008AE3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC32CD9C2A90F7060008AE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC32CDA42A90F80C0008AE3F /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		FC32CDA82A90FD870008AE3F /* CompleteToDoIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoIntent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,7 @@
 			children = (
 				FC32CD962A90F7030008AE3F /* ToDoWidgetBundle.swift */,
 				FC32CD982A90F7030008AE3F /* ToDoWidget.swift */,
+				FC32CDA82A90FD870008AE3F /* CompleteToDoIntent.swift */,
 				FC32CD9A2A90F7060008AE3F /* Assets.xcassets */,
 				FC32CD9C2A90F7060008AE3F /* Info.plist */,
 			);
@@ -246,6 +250,7 @@
 				FC32CDA62A90FA1F0008AE3F /* ToDoWidget.swift in Sources */,
 				FC32CD802A90F6D20008AE3F /* ContentView.swift in Sources */,
 				FC32CD7E2A90F6D20008AE3F /* InteractiveWidgetKitApp.swift in Sources */,
+				FC32CDA92A90FD870008AE3F /* CompleteToDoIntent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC32CDAA2A90FD870008AE3F /* CompleteToDoIntent.swift in Sources */,
 				FC32CDA72A90FA3A0008AE3F /* ToDo.swift in Sources */,
 				FC32CD972A90F7030008AE3F /* ToDoWidgetBundle.swift in Sources */,
 				FC32CD992A90F7030008AE3F /* ToDoWidget.swift in Sources */,
